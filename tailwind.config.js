@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['"Jamolhari"', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        serif: ['Jomolhari', ...defaultTheme.fontFamily.serif],
       },
     },
   },
   plugins: [],
 }
-
